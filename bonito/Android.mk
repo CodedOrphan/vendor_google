@@ -196,7 +196,7 @@ LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
+#include $(CLEAR_VARS)
 LOCAL_MODULE := Tycho
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/product/app/Tycho/Tycho.apk
@@ -206,7 +206,7 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := VZWAPNLib
@@ -243,7 +243,7 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
+#include $(CLEAR_VARS)
 LOCAL_MODULE := CarrierServices
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/product/priv-app/CarrierServices/CarrierServices.apk
@@ -253,7 +253,7 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRODUCT_MODULE := true
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CarrierSettings
